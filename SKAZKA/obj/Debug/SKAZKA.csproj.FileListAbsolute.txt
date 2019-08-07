@@ -1,0 +1,7 @@
+D:\EPAM\DZ\SKAZKA\SKAZKA\bin\Debug\SKAZKA.exe.config
+D:\EPAM\DZ\SKAZKA\SKAZKA\bin\Debug\SKAZKA.exe
+D:\EPAM\DZ\SKAZKA\SKAZKA\bin\Debug\SKAZKA.pdb
+D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csprojAssemblyReference.cache
+D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csproj.CoreCompileInputs.cache
+D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.exe
+D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.pdb
