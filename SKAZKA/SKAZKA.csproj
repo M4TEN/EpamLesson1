@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals.cs" />
+    <Compile Include="Bear.cs" />
+    <Compile Include="Boar.cs" />
+    <Compile Include="Fox.cs" />
+    <Compile Include="Frog.cs" />
+    <Compile Include="IMoves.cs" />
+    <Compile Include="Mouse.cs" />
+    <Compile Include="IPrint.cs" />
+    <Compile Include="Print.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rabbit.cs" />
+    <Compile Include="Wolf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
