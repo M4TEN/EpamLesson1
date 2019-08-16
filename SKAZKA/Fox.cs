@@ -8,9 +8,9 @@ namespace SKAZKA
 {
     class Fox:Animals
     {
-        public Fox(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Fox(string Name= "лисица", string NickName= "сестричка", string Gender= "female") : base(Name, NickName, Gender)
         {
-
+            
         }
 
         public string Move()

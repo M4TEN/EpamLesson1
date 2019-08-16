@@ -8,8 +8,9 @@ namespace SKAZKA
 {
     class Frog:Animals
     {
-        public Frog(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Frog(string Name= "лягушка", string NickName= "попрыгушка", string Gender= "female") : base(Name, NickName, Gender)
         {
+            
 
         }
 
