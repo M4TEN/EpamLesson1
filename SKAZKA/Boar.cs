@@ -8,9 +8,9 @@ namespace SKAZKA
 {
     class Boar:Animals
     {
-        public Boar(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Boar(string Name= "кабан", string NickName= "клыкан", string Gender= "male") : base(Name, NickName, Gender)
         {
-
+            
         }
 
         public string Move()

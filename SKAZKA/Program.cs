@@ -13,6 +13,7 @@ namespace SKAZKA
         {
             if (number == 0)
             {
+                animal = animal.Substring(0, 1).ToUpper() + animal.Substring(1, animal.Length - 1).ToLower()+"- ";
                 outin.MWriter(animal);
                 outin.MWriter(outin.Travel(5));
                 outin.Writer(outin.Travel(6));
@@ -34,14 +35,15 @@ namespace SKAZKA
             }
 
             List<string> _Animals = new List<string>();
-            Mouse mice = new Mouse("мышка","поскребушка","female");
-            Frog anuran = new Frog("лягушка", "попрыгушка", "female");
-            Rabbit bunny = new Rabbit("зайчик", "побегайчик", "male");
-            Fox tod = new Fox("лисица", "сестричка", "female");
-            Wolf predator = new Wolf("волчок", "серый бочок", "male");
-            Boar aper = new Boar("кабан", "клыкан", "male");
-            Bear shrek = new Bear("медведюшка", "батюшка", "male");
+            Mouse mice = new Mouse();
+            Frog anuran = new Frog();
+            Rabbit bunny = new Rabbit();
+            Fox tod = new Fox();
+            Wolf predator = new Wolf();
+            Boar aper = new Boar();
+            Bear shrek = new Bear();
 
+            //add animals to a story
             _Animals.Add(mice.Display());
             _Animals.Add(anuran.Display());
             _Animals.Add(bunny.Display());
@@ -50,33 +52,39 @@ namespace SKAZKA
             _Animals.Add(aper.Display());
             _Animals.Add(shrek.Display());
 
-            int _number=rnd.Next(6)+1;
-            OutIn.Title("Р У К А В И Ч К А\n");
-            OutIn.Writer("Шёл дед лесом, а за ним бежала собачка. Шёл дед, шёл, да и обронил рукавичку.");
+            int _number = rnd.Next(6) + 1;
             int x = 0;
 
-            StartOfStory(x++, _Animals[0] + " ", OutIn);
-            while (_number!=0)
+            //start of the story
+            OutIn.Title("Р У К А В И Ч К А\n");
+            OutIn.Writer("Шёл дед лесом, а за ним бежала собачка. Шёл дед, шёл, да и обронил рукавичку.");
+
+            StartOfStory(x++, _Animals[lst[x]] + " ", OutIn);
+            while (_number != 0)
             {
                 OutIn.Reader();
+                //first sentence of a phrase
+                OutIn.MWriter("\n" + OutIn.Travel(5) + _Animals[lst[x]] + OutIn.Travel(0) + OutIn.Travel(8));
 
-                OutIn.MWriter("\n" + OutIn.Travel(5)+ _Animals[lst[x]] + OutIn.Travel(0) + OutIn.Travel(8));
-
-                for (int i=0;i<x;i++)
+                //listing animals in Rukavichka
+                for (int i = 0; i < x; i++)
                 {
-                    OutIn.MWriter(_Animals[lst[i]]+", ");
+                    OutIn.MWriter(_Animals[lst[i]] + ", ");
                 }
+
+                //who are you
                 OutIn.Writer(OutIn.Travel(1));
 
-                OutIn.Writer(OutIn.Travel(9) + _Animals[lst[x]] + ". " + OutIn.Travel(2)+ OutIn.Travel(3));
-                OutIn.MWriter(OutIn.Travel(10) + OutIn.Count(x-1));
+                //answer from a traveler
+                OutIn.Writer(OutIn.Travel(9) + _Animals[lst[x]] + ". " + OutIn.Travel(2) + OutIn.Travel(3));
+                //counting animals
+                OutIn.MWriter(OutIn.Travel(10) + OutIn.Count(x - 1));
                 x++;
                 _number--;
             }
-            
-            OutIn.Ending(_number);
+            //ending of the story
+            OutIn.Ending(x);
             OutIn.Reader();
-            OutIn.Title("Нажмите E N T E R");
 
         }
     }

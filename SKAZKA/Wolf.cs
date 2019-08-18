@@ -8,9 +8,9 @@ namespace SKAZKA
 {
     class Wolf:Animals
     {
-        public Wolf(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Wolf(string Name= "волчок", string NickName = "серый бочок", string Gender= "male") : base(Name, NickName, Gender)
         {
-
+            
         }
 
         public string Move()

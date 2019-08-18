@@ -8,9 +8,9 @@ namespace SKAZKA
 {
     class Rabbit:Animals
     {
-        public Rabbit(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Rabbit(string Name= "зайчик", string NickName= "побегайчик", string Gender= "male") : base(Name, NickName, Gender)
         {
-
+            
         }
 
         public string Move()

@@ -8,9 +8,11 @@ namespace SKAZKA
 {
     class Mouse:Animals
     {
-        public Mouse(string Name, string NickName, string Gender) : base(Name, NickName, Gender)
+        public Mouse(string Name = "мышка", string NickName = "поскребушка", string Gender = "female") : base(Name, NickName, Gender)
         {
-
+            //Name = "мышка";
+            //NickName = "поскребушка";
+            //Gender = "female";
         }
 
         public string Move()

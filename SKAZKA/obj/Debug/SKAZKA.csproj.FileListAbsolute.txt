@@ -5,3 +5,10 @@ D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csprojAssemblyReference.cache
 D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csproj.CoreCompileInputs.cache
 D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.exe
 D:\EPAM\DZ\SKAZKA\SKAZKA\obj\Debug\SKAZKA.pdb
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\bin\Debug\SKAZKA.exe.config
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\bin\Debug\SKAZKA.exe
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\bin\Debug\SKAZKA.pdb
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csprojAssemblyReference.cache
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\obj\Debug\SKAZKA.csproj.CoreCompileInputs.cache
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\obj\Debug\SKAZKA.exe
+C:\Users\M4TEN\Documents\GitHub\EpamLesson1\SKAZKA\SKAZKA\obj\Debug\SKAZKA.pdb
